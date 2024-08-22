@@ -1,0 +1,524 @@
+*{
+ margin: 0;
+}
+
+.bdy{
+ background: whitesmoke;
+ overflow-x: hidden;
+}
+
+nav{
+ z-index: 2;
+}
+
+/* for custom scrollbar for webkit browser*/
+ 
+::-webkit-scrollbar {
+  width: 5px;
+} 
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255); 
+} 
+::-webkit-scrollbar-thumb {
+  background: rgb(39, 39, 39);
+  border-radius: 10px;
+}
+
+.line{
+ background-color: rgb(83, 83, 179);
+ height: 1px;
+}
+
+.line1{
+ background-color: rgb(212, 212, 212);
+ height: 1px;
+}
+
+.line2{
+ background-color: rgb(92, 92, 92);
+ height: 1px;
+}
+
+.up{
+ font-size: 14px;
+ /* font-family: 'Nunito Sans', sans-serif; */
+ background-color: rgb(43, 63, 151);
+ display: flex;
+ justify-content: space-between;
+ height: 40px;
+}
+
+.country{
+ text-decoration: none;
+ color: white;
+ font-family: 'Nunito', sans-serif;
+}
+
+.country i{
+ color: rgb(255, 255, 255);
+ font-size: 10px;
+ padding-left: 5px;
+}
+
+.country li{
+ color: white;
+}
+
+.countrymenu{
+ width: 200px;
+ transition-duration: 0.5s;
+}
+
+.countrymenu a:hover{
+ background-color: transparent;
+ color: rgb(1, 197, 197);
+ transition: 0.3s;
+}
+
+.countrymenu a{
+ font-family: 'Nunito', sans-serif;
+ font-size: 15px;
+}
+
+.up ul{
+ list-style: none;
+ padding-top: 10px;
+ color: white;
+}
+
+.up ul li{
+ display: inline;
+}
+
+.up1 a{
+ text-decoration: none;
+ color: white;
+ font-family: 'Nunito', sans-serif;
+}
+
+.up1 li:hover{
+ color: rgb(255, 198, 92);
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+.vl {
+ border-left: 1px solid rgb(83, 83, 179);
+ height: 15px;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 4px;
+}
+
+.bar{
+ background-color: rgb(43, 63, 151);
+ backdrop-filter: blur(50px);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ width: 100%;
+}
+         
+.search{
+ outline: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 0;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ background-color: rgb(255, 255, 255);
+ max-width: 380px;
+ width: 100%;
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ padding-top: 2;
+ font-family: 'Nunito', sans-serif;
+ font-size: 14px;
+ margin-top: 7px;
+ margin-bottom: 7px;
+ padding-left: 10px;
+}
+
+
+
+.menu{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ font-family: "Inter", sans-serif;
+ margin-left: 200px;
+ height: 50px;
+ width: 200px;
+ padding-top: 14px;
+ padding-left: 20px;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ background-color: rgb(255, 255, 255);
+ margin-top: 7px;
+ margin-bottom: 7px;
+ font-size: 14px;
+ cursor: default;
+}
+
+.searchline{
+ color: rgb(224, 224, 224);
+ background-color: white;
+ height: 50px;
+ margin-top: 7px;
+ padding-top: 10px;
+ font-size: 18px;
+}
+
+.categorymenu{
+ width: 200px;
+ height: 320px;
+ overflow-y: scroll;
+}
+
+.categorymenu a{
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.categorymenu a:hover{
+ background-color: rgb(68, 68, 255);
+ color: white;
+ cursor: default;
+}
+
+.menu i{
+ color: rgb(104, 104, 104);
+ font-size: 10px;
+ padding-left: 62px;
+}
+
+.menu1r{
+ display: flex;
+ justify-items: end;
+}
+
+.menu1{
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ margin-left: 5px;
+ margin-top: 12px;
+ cursor: pointer;
+}
+         
+.menu1 a{
+ text-decoration: none;
+}
+
+.menu1 span{
+  color: rgba(240, 240, 240, 0.61);
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.menu1 h6{
+ color: white;
+ font-size: 15px;
+ font-weight: 500;
+}
+
+.menu1:hover{
+ color: rgb(255, 255, 255);
+}
+
+.offcanvas {
+  display: none;
+  position: absolute;
+  height: 103vh;
+}
+
+
+
+.offcanvas-header h5{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ font-size: 18px;
+ font-family: "Inter", sans-serif;
+ font-weight: bold;
+}
+
+.wish{
+ color: white;
+ background-color: transparent;
+ border: 0;
+ margin-left: 20px;
+ margin-top: 3px;
+ font-family: 'Nunito', sans-serif;
+}
+
+.cart{
+ color: rgb(255, 255, 255);
+ margin-left: 25px;
+ font-size: 22px;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.cart1{
+ text-decoration: none;
+ color: rgb(255, 251, 251);
+ font-family: 'Nunito', sans-serif;
+ background-color: transparent;
+ border: 0;
+ padding: 0;
+}
+
+.count {
+  position: absolute;
+  color: white;
+  top: 13px;
+  padding: 10px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.count p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  background-color: rgb(1, 197, 197);
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 1px;
+}
+
+.downl{
+ color: white;
+ margin-right: 10px;
+}
+
+.down{
+ font-size: 15px;
+ font-weight: 500;
+ background-color: rgb(43, 63, 151);
+ display: flex;
+ justify-content: space-between;
+ height: 45px;
+}
+
+.bar1{
+ margin-top: 10px;
+ /* margin-left: 10px; */
+ color: white;
+ margin-right: 50px;
+}
+
+.bar1:hover{
+  cursor: pointer;
+}
+
+.down{
+ list-style: none;
+ padding-top: 10px;
+ display: flex;
+ color: white;
+ padding-left: 10px;
+}
+
+.department{
+ width: 290px;
+ transition-duration: 0.5s;
+}
+
+.department a{
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Nunito", sans-serif;
+}
+
+.department i{
+  padding-top: 5px;
+}
+
+.department a:hover{
+ background-color: transparent;
+ color: rgb(1, 197, 197);
+ transition: 0.3s;
+}
+
+.hr{
+ color: rgb(173, 173, 173);
+}
+
+.down2{
+ list-style: none;
+ display: flex;
+ color: white;
+}
+
+.down2 li{
+ display: inline;
+ padding-left: 30px;
+}
+
+.down2 a{
+ text-decoration: none;
+ color: white;
+}
+
+.down2 li:hover{
+ color: rgb(1, 197, 197);
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+
+
+/* Wishlist */
+
+.wishtext{
+ margin-left: -40px;
+}
+
+.wishtext small{
+ color: rgb(18, 72, 190);
+ font-weight: bold;
+ font-size: 14px;
+ margin-top: 10px;
+ font-family: 'Nunito', sans-serif;
+}
+
+.wishtext span{
+ color: rgb(0, 0, 0);
+ font-weight: bold;
+ font-size: 15px;
+ font-family: 'Nunito', sans-serif;
+}
+
+.wishtext a{
+ margin-left: 140px;
+ color: red;
+}
+
+.wishdown p{
+ font-family: 'Nunito', sans-serif;
+ font-weight: bold;
+}
+
+.wishdown small{
+ color: rgb(50, 255, 112);
+ font-size: 16px;
+}
+
+.wishdown span{
+ font-family: 'Nunito', sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.view{
+ margin-top: 40px;
+ margin-bottom: 30px;
+}
+
+.view a{
+ text-decoration: none;
+ border: 1px solid rgb(216, 216, 216);
+ padding-left: 130px;
+ padding-right: 130px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: black;
+ font-size: 14px;
+ font-weight: bold;
+ font-family: 'Nunito', sans-serif;
+ border-radius: 5px;
+}
+
+.view a:hover{
+ background-color: rgb(41, 190, 228);
+ color: white;
+ transition: 0.3s;
+}
+
+.check a{
+ text-decoration: none;
+ border: 1px;
+ padding-left: 130px;
+ padding-right: 130px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: rgb(255, 255, 255);
+ font-size: 14px;
+ font-weight: bold;
+ font-family: 'Nunito', sans-serif;
+ border-radius: 5px;
+ background-color: rgb(26, 26, 26);
+}
+
+.check a:hover{
+ background-color: rgb(41, 190, 228);
+ color: white;
+ transition: 0.3s;
+}
+
+.cartproduct{
+ height: 40vh;
+ /* background-color: gray; */
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+
+.display-order{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+
+/* Responsive Navbar with Offcanvas */
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {
+  .menu {
+    margin-left: 0;
+  }
+} */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+  .search {
+    width: 250px; 
+  }
+} */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+  .menu {
+    margin-left: 200px;
+  }
+} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+  .menu {
+    margin-left: 200px;
+  }
+} */
+
+/* Extra large devices (large desktops, 1300px and up) */
+/* @media (min-width: 1300px) {
+  .offcanvas-menu {
+    display: none;
+  }
+} */
+
+/* Below 1300px */
+/* @media (max-width: 1299px) {
+  .offcanvas-menu {
+    display: block;
+  }
+} */

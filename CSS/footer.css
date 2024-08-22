@@ -1,0 +1,153 @@
+.foots{
+ background-color: rgb(29, 29, 29);
+ padding-top: 30px;
+ padding-bottom: 25px;
+}
+
+.foots img{
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+.foots span{
+ color: white;
+ padding-left: 20px;
+ padding-top: 30px;
+ font-weight: 500;
+ font-size: 18px;
+ font-family: 'Nunito', sans-serif;
+ padding-right: 80px;
+}
+
+.foots p{
+ color: rgb(128, 128, 128);
+ font-family: 'Nunito', sans-serif;
+ padding-left: 20px;
+ font-size: 13px;
+ padding-top: 5px;
+}
+
+footer{
+ background-color: rgb(29, 29, 29);
+ width: 100%;
+}
+
+.foot h6{
+ color: white;
+ margin-top: 50px;
+ margin-bottom: 20px;
+ font-size: 18px;
+}
+
+.foot p{
+ color: rgb(160, 160, 160);
+ font-family: 'Nunito', sans-serif;
+ font-size: 14px;
+ margin-bottom: 9px;
+}
+
+.foot p:hover{
+ color: rgb(10, 165, 255);
+ text-decoration: underline;
+ transition: 0.3s;
+ cursor: pointer;
+}
+
+.foot span{
+ color: rgb(160, 160, 160);
+ font-family: 'Nunito', sans-serif;
+}
+
+.foot2{
+ padding-top: 50px;
+}
+
+.mail{
+ outline: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 0;
+ border-top-left-radius: 3px;
+ border-bottom-left-radius: 3px;
+ background-color: rgb(255, 255, 255);
+ width: 230px;
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ padding-top: 2;
+ padding-left: 10px;
+ font-family: 'Nunito', sans-serif;
+ font-size: 14px;
+ margin-top: 7px;
+ margin-bottom: 7px;
+}
+
+.subscribe{
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ font-family: 'Nunito', sans-serif;
+ height: 50px;
+ width: 150px;
+ padding-top: 16px;
+ padding-left: 20px;
+ border-top-right-radius: 3px;
+ border-bottom-right-radius: 3px;
+ background-color: rgb(10, 165, 255);
+ margin-top: 7px;
+ margin-bottom: 7px;
+ font-size: 14px;
+}
+
+.lfoot{
+ font-size: 14px;
+ /* font-family: 'Nunito Sans', sans-serif; */
+ background-color: rgb(29, 29, 29);
+ display: flex;
+ justify-content: center;
+ height: 40px;
+}
+
+.lfoot ul{
+ list-style: none;
+ padding-top: 10px;
+ color: white;
+}
+
+.lfoot ul li{
+ display: inline;
+ color: rgb(160, 160, 160);
+ font-family: 'Nunito', sans-serif;
+ font-size: 12px;
+}
+
+.lfoot ul li:hover{
+ color: rgb(10, 165, 255);
+ transition: 0.3s;
+ cursor: pointer;
+}
+
+.vlf {
+ border-left: 1px solid rgb(51, 51, 51);
+ height: 15px;
+ margin-left: 18px;
+ margin-right: 18px;
+}
+
+.payment{
+ display: flex;
+ justify-content: center;
+}
+
+.copyright p{
+ display: flex;
+ justify-content: center;
+ color: rgb(160, 160, 160);
+ font-family: 'Nunito', sans-serif;
+}
+
+.copyright a{
+ text-decoration: none;
+ color: rgb(10, 165, 255);
+ padding-left: 3px;
+}

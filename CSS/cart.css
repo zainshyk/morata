@@ -1,0 +1,145 @@
+*{
+ margin: 0;
+}
+
+body{
+  background:#eee;
+  overflow-x: hidden;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+ 
+::-webkit-scrollbar {
+  width: 8px;
+} 
+::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 10px;
+} 
+::-webkit-scrollbar-thumb {
+  background: rgb(163, 163, 163);
+  border-radius: 10px;
+}
+
+
+/* Content  */
+
+.top{
+ display: flex;
+ background-color: white;
+ padding-top: 17px;
+ padding-bottom: 2px;
+ padding-left: 10px;
+}
+
+.top a{
+ text-decoration: none;
+ color: black;
+ font-family: 'Nunito', sans-serif;
+}
+
+.top p{
+ color: gray;
+ padding-left: 5px;
+ font-family: 'Nunito', sans-serif;
+}
+
+
+
+body{
+  margin-top:20px;
+  background-color: #f1f3f7;
+}
+
+.avatar-lg {
+  height: 5rem;
+  width: 5rem;
+}
+
+.text-truncate{
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+ font-size: 18px;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card p{
+ font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.w-xl {
+  min-width: 160px;
+}
+
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #eff0f2;
+  border-radius: 1rem;
+  margin-bottom: 24px;
+}
+
+.btnn{
+  font-family: 'Nunito', sans-serif;
+}
+
+.quantity{
+  outline: none;
+  width: 100px;
+  border: 1px solid rgb(187, 187, 187);
+  height: 15px;
+  background-color: white;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+ padding-top: 12px;
+ padding-bottom: 12px;
+ }
+
+ .update{
+ color: rgb(0, 0, 0);
+ background-color: white;
+ border: 1px solid rgb(187, 187, 187);
+ font-size: 14px;
+ border-radius: 5px;
+ width: 70px;
+ font-family: 'Nunito', sans-serif;
+ }
+
+ .update:hover{
+  background-color: rgb(26, 26, 26);
+  transition: 0.3s;
+  color: white;
+ }
+
+ .summary{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+ }
+
+ .table td{
+  font-family: 'Nunito', sans-serif;
+ }
+
+
+/* Content END  */
